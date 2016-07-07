@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JaggedArrayMath</name>
+    </assembly>
+    <members>
+        <member name="T:JaggedArrayMath.JaggedArraySort">
+            <summary>
+            JaggedArraySort provides some of sorting methods for jagged arrays.
+            </summary>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.SortBySumOfRowElements(System.Int32[][],System.Boolean)">
+            <summary>
+            This method sorts jagged arrays by sum of elements in each row. 
+            </summary>
+            <param name="array">Array which have to be sorted</param>
+            <param name="isAscendingSort">Parameter which is responsible for ascending or descending sort</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.SortByRowMaxElement(System.Int32[][],System.Boolean)">
+            <summary>
+            This method sorts jagged arrays by max element in each row. 
+            </summary>
+            <param name="array">Array which have to be sorted</param>
+            <param name="isAscendingSort">Parameter which is responsible for ascending or descending sort</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.SortByRowMinElement(System.Int32[][],System.Boolean)">
+            <summary>
+            This method sorts jagged arrays by min element in each row. 
+            </summary>
+            <param name="array">Array which have to be sorted</param>
+            <param name="isAscendingSort">Parameter which is responsible for ascending or descending sort</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.GetSumOfRowElements(System.Int32[])">
+            <summary>
+            This method finds sum of elements 
+            </summary>
+            <param name="row">Array of element</param>
+            <returns>Return sum of elements</returns>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.GetRowMaxElement(System.Int32[])">
+            <summary>
+            This method finds max of elements 
+            </summary>
+            <param name="row">Array of element</param>
+            <returns>Return max of elements</returns>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArraySort.GetRowMinElement(System.Int32[])">
+            <summary>
+            This method finds min of elements 
+            </summary>
+            <param name="row">Array of element</param>
+            <returns>Return min of elements</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.Tests.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.dll
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\nunit.framework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.xml
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\nunit.framework.xml
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.pdb

@@ -9,3 +9,14 @@ c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayM
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.csprojResolveAssemblyReference.cache
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.dll
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.csprojResolveAssemblyReference.cache
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\obj\Debug\JaggedArrayMath.Tests.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.Tests.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.Tests.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\nunit.framework.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\JaggedArrayMath.xml
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath.Tests\bin\Debug\nunit.framework.xml

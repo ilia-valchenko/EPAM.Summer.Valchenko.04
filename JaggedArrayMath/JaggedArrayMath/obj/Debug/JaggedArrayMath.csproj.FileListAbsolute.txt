@@ -4,3 +4,9 @@ c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayM
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.csprojResolveAssemblyReference.cache
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.dll
 c:\users\ilia\documents\visual studio 2015\Projects\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\bin\Debug\JaggedArrayMath.XML
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\bin\Debug\JaggedArrayMath.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\bin\Debug\JaggedArrayMath.pdb
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.csprojResolveAssemblyReference.cache
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.dll
+G:\GitEpam\Day4\JaggedArrayMath\JaggedArrayMath\obj\Debug\JaggedArrayMath.pdb

@@ -1,0 +1,5 @@
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754\bin\Debug\DoubleToIEEE754.XML
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754\bin\Debug\DoubleToIEEE754.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754\bin\Debug\DoubleToIEEE754.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754\obj\Debug\DoubleToIEEE754.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754\obj\Debug\DoubleToIEEE754.pdb

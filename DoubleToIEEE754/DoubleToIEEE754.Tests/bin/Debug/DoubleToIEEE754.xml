@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DoubleToIEEE754</name>
+    </assembly>
+    <members>
+        <member name="T:DoubleToIEEE754.DoubleExtension">
+            <summary>
+            This is an extension class for System.Double which provides converting methods to IEEE 754 standard.
+            </summary>
+        </member>
+        <member name="M:DoubleToIEEE754.DoubleExtension.ToIEEE754UsingBitConverter(System.Double)">
+            <summary>
+            This method convert double into string which represents it in IEEE 754 using BitConverter. 
+            </summary>
+            <param name="db">Double number which must be converted</param>
+            <returns>String representation of double in IEEE 754</returns>
+        </member>
+        <member name="M:DoubleToIEEE754.DoubleExtension.ToIEEE754(System.Double)">
+            <summary>
+            This method convert double into string which represents it in IEEE 754. 
+            </summary>
+            <param name="db">Double number which must be converted</param>
+            <returns>String representation of double in IEEE 754</returns>
+        </member>
+    </members>
+</doc>

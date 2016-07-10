@@ -1,0 +1,11 @@
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\DoubleToIEEE754.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\DoubleToIEEE754.Tests.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\DoubleToIEEE754.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\nunit.framework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\DoubleToIEEE754.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\DoubleToIEEE754.xml
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\bin\Debug\nunit.framework.xml
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\obj\Debug\DoubleToIEEE754.Tests.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\obj\Debug\DoubleToIEEE754.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\DoubleToIEEE754\DoubleToIEEE754.Tests\obj\Debug\DoubleToIEEE754.Tests.pdb

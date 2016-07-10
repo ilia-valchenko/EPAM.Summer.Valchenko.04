@@ -1,0 +1,6 @@
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\bin\Debug\CustomerLibrary.XML
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\bin\Debug\CustomerLibrary.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\bin\Debug\CustomerLibrary.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\obj\Debug\CustomerLibrary.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\obj\Debug\CustomerLibrary.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary\obj\Debug\CustomerLibrary.pdb

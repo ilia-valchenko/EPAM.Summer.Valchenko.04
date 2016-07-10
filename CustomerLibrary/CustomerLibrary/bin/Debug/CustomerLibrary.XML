@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerLibrary.Customer">
+            <summary>
+            Class Customer contains general information about customer.
+            </summary>
+        </member>
+        <member name="P:CustomerLibrary.Customer.Name">
+            <summary>
+            Name property contains value of customer's name.
+            </summary>
+        </member>
+        <member name="P:CustomerLibrary.Customer.ContactPhone">
+            <summary>
+            ContactPhone property contains value of customer's phone number.
+            </summary>
+        </member>
+        <member name="P:CustomerLibrary.Customer.Revenue">
+            <summary>
+            Revenue property contains value of customer's revenue.
+            </summary>
+        </member>
+        <member name="M:CustomerLibrary.Customer.#ctor">
+            <summary>
+            The class standard constructor.
+            </summary>
+        </member>
+        <member name="M:CustomerLibrary.Customer.#ctor(System.String,System.String,System.Decimal)">
+            <summary>
+            The class constructor with parameters.
+            </summary>
+        </member>
+        <member name="M:CustomerLibrary.Customer.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            This method allow to represent customer in different ways.
+            </summary>
+            <param name="format">Customer's format</param>
+            <param name="provider">Parameter to control formatting</param>
+            <returns>String which represent customer instance.</returns>
+        </member>
+        <member name="T:CustomerLibrary.ExtensionCustomer">
+            <summary>
+            Extends the base Customer class
+            </summary>
+        </member>
+        <member name="M:CustomerLibrary.ExtensionCustomer.Print(CustomerLibrary.Customer,System.String,System.IFormatProvider)">
+            <summary>
+            This method allow to represent customer in different ways.
+            </summary>
+            <param name="customer">Link to the customer object</param>
+            <param name="format">Customer's format</param>
+            <param name="provider">Parameter to control formatting</param>
+            <returns>String which represent customer instance.</returns>
+        </member>
+    </members>
+</doc>

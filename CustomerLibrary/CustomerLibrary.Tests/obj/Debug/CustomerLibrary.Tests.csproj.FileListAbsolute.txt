@@ -1,0 +1,11 @@
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\CustomerLibrary.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\CustomerLibrary.Tests.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\CustomerLibrary.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\nunit.framework.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\CustomerLibrary.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\CustomerLibrary.xml
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\bin\Debug\nunit.framework.xml
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\obj\Debug\CustomerLibrary.Tests.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\obj\Debug\CustomerLibrary.Tests.dll
+c:\users\ilia\documents\visual studio 2015\Projects\CustomerLibrary\CustomerLibrary.Tests\obj\Debug\CustomerLibrary.Tests.pdb

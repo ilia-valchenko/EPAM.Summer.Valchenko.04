@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static JaggedArrayMath.JaggedArraySort;
 
 namespace JaggedArrayMath.Tests
 {
     [TestClass]
-    public class JaggedArraySort_Tests
+    public class JaggedArray_Tests
     {
         [TestMethod]
-        public void SortBySumOfRowElementsExpectedArraySortedByAscending()
+        public void AscendingSortBySumOfRowElements()
         {
             int[][] jaggedArray = new int[][]
             {
@@ -18,6 +17,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {11,22},
                 new int[] {1}
             };
+
             int[][] expectedArray = new int[][]
             {
                 new int[] {1},
@@ -26,21 +26,22 @@ namespace JaggedArrayMath.Tests
                 new int[] {11, 22},               
             };
 
-            Sort(jaggedArray, new SumOfRowElements());
+            JaggedArray.Sort(jaggedArray, new CompareByAscendingSum());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
 
         [TestMethod]
-        public void SortBySumOfRowElementsExpectedArraySortedByDescending()
+        public void DescendingSortBySumOfRowElements()
         {
             int[][] jaggedArray = new int[][]
             {
-                new int[] {1,3,5,7,9},
-                new int[] {0,2,4,6},
-                new int[] {11,22},
+                new int[] {1, 3, 5, 7, 9},
+                new int[] {0, 2, 4, 6},
+                new int[] {11, 22},
                 new int[] {1}
             };
+
             int[][] expectedArray = new int[][]
             {
                 new int[] {11, 22},
@@ -49,13 +50,41 @@ namespace JaggedArrayMath.Tests
                 new int[] {1}
             };
 
-            Sort(jaggedArray, new SumOfRowElements(), false);
+            JaggedArray.Sort(jaggedArray, new CompareByDescendingSum());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
 
         [TestMethod]
-        public void SortBySumOfRowElementsWithEmptyArraysExpectedArraySortedByAscending()
+        public void AscendingSortByMaxElement()
+        {
+            int[][] jaggedArray = new int[][]
+            {
+                new int[] {1, 10, 5, 7, 9},
+                new int[] {0, 2, 4, 6},
+                new int[] {},
+                new int[] {11, 22},
+                new int[] {1},
+                new int[] {}
+            };
+
+            int[][] expectedArray = new int[][]
+            {
+                new int[] {},
+                new int[] {},
+                new int[] {1},
+                new int[] {0, 2, 4, 6},
+                new int[] {1, 10, 5, 7, 9},
+                new int[] {11, 22}
+            };
+
+            JaggedArray.Sort(jaggedArray, new CompareByAscendingMaxElement());
+
+            Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
+        }
+
+        [TestMethod]
+        public void DescendingSortByMaxElement()
         {
             int[][] jaggedArray = new int[][]
             {
@@ -66,63 +95,70 @@ namespace JaggedArrayMath.Tests
                 new int[] {1},
                 new int[] {}
             };
+
             int[][] expectedArray = new int[][]
             {
-                new int[] {},
-                new int[] {},
-                new int[] {1},
+                new int[] {11, 22},
+                new int[] {1, 3, 5, 7, 9},
                 new int[] {0, 2, 4, 6},
-                new int[] {1, 3, 5, 7, 9},
-                new int[] {11, 22},
-            };
-
-            Sort(jaggedArray, new SumOfRowElements());
-
-            Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
-        }
-
-        [TestMethod]
-        public void SortByRowMaxElementExpectedArraySortedByAscending()
-        {
-            int[][] jaggedArray = new int[][]
-            {
-                new int[] {1,3,5,7,9},
-                new int[] {0,2,4,6,10},
-                new int[] {11,22},
-                new int[] {1}
-            };
-            int[][] expectedArray = new int[][]
-            {
                 new int[] {1},
-                new int[] {1, 3, 5, 7, 9},
-                new int[] {0, 2, 4, 6, 10},
-                new int[] {11, 22},
+                new int[] {},
+                new int[] {}
             };
 
-            Sort(jaggedArray, new RowMaxElement());
+            JaggedArray.Sort(jaggedArray, new ComparerByDescendingMaxElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
 
         [TestMethod]
-        public void SortByRowMinElementExpectedArraySortedByAscending()
+        public void AscendingSortByMinElement()
         {
             int[][] jaggedArray = new int[][]
             {
                 new int[] {1,3,5,7,9},
                 new int[] {0,2,4,6,10},
                 new int[] {11,22},
-                new int[] {1}
-            };
-            int[][] expectedArray = new int[][]
-            {
-                new int[] {0, 2, 4, 6, 10},
-                new int[] {1, 3, 5, 7, 9},
-                new int[] {1},               
-                new int[] {11, 22}
+                new int[] {1},
+                new int[] {10,7},
             };
 
-            Sort(jaggedArray, new RowMinElement());
+            int[][] expectedArray = new int[][]
+            {
+                new int[] {0,2,4,6,10},
+                new int[] {1,3,5,7,9},
+                new int[] {1},
+                new int[] {10,7},
+                new int[] {11,22}
+            };
+
+            JaggedArray.Sort(jaggedArray, new CompareByAscendingMinElement());
+
+            Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
+        }
+
+        [TestMethod]
+        public void DescendingSortByMinElement()
+        {
+            int[][] jaggedArray = new int[][]
+            {
+                new int[] {1,3,5,7,9},
+                new int[] {0,2,4,6,10},
+                new int[] {11,22},
+                new int[] {1},
+                new int[] {10,7},
+            };
+
+            int[][] expectedArray = new int[][]
+            {
+                new int[] {11,22},
+                new int[] {10,7},
+                new int[] {1,3,5,7,9},
+                new int[] {1},
+                new int[] {0,2,4,6,10}
+            };
+
+            JaggedArray.Sort(jaggedArray, new CompareByDescendingMinElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }

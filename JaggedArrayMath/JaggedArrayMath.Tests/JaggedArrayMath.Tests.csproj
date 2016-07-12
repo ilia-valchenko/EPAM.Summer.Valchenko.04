@@ -54,7 +54,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="JaggedArraySort_Tests.cs" />
+    <Compile Include="CompareByAscendingMaxElement.cs" />
+    <Compile Include="CompareByAscendingMinElement.cs" />
+    <Compile Include="CompareByAscendingSum.cs" />
+    <Compile Include="CompareByDescendingMinElement.cs" />
+    <Compile Include="CompareByDescendingSum.cs" />
+    <Compile Include="ComparerByDescendingMaxElement.cs" />
+    <Compile Include="JaggedArray_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

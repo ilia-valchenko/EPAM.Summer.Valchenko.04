@@ -4,49 +4,25 @@
         <name>JaggedArrayMath</name>
     </assembly>
     <members>
-        <member name="T:JaggedArrayMath.ISortCriterion">
+        <member name="T:JaggedArrayMath.JaggedArray">
             <summary>
-            ISortCriterion provides criteria for sorting. 
+            This static class provides method which sorts jagged arrays by given criterion.
             </summary>
         </member>
-        <member name="M:JaggedArrayMath.ISortCriterion.CriterionMethod(System.Int32[])">
+        <member name="M:JaggedArrayMath.JaggedArray.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
             <summary>
-            This methos defines by what criterion original array will be sorted.
-            </summary>
-            <param name="array">Row of original jagged array</param>
-        </member>
-        <member name="T:JaggedArrayMath.JaggedArraySort">
-            <summary>
-            This method sorts the array for a given criterion.
-            </summary>
-        </member>
-        <member name="M:JaggedArrayMath.JaggedArraySort.Sort(System.Int32[][],JaggedArrayMath.ISortCriterion,System.Boolean)">
-            <summary>
-            This method sorts jagged arrays by sum of elements in each row. 
+            This method sorts jagged arrays by given criterion. 
             </summary>
             <param name="array">Array which have to be sorted</param>
-            <param name="isAscendingSort">Parameter which is responsible for ascending or descending sort</param>
+            <param name="comparator">Criterion for sorting</param>
         </member>
-        <member name="M:JaggedArrayMath.RowMaxElement.CriterionMethod(System.Int32[])">
+        <member name="M:JaggedArrayMath.JaggedArray.SwapRowsOfArray(System.Int32[][],System.Int32,System.Int32)">
             <summary>
-            This method finds max of elements 
+            This method replaces two rows into two-dimensional array.
             </summary>
-            <param name="array">Array is represented by elements from row in original jagged array</param>
-            <returns>Return max of elements</returns>
-        </member>
-        <member name="M:JaggedArrayMath.RowMinElement.CriterionMethod(System.Int32[])">
-            <summary>
-            This method finds min of elements 
-            </summary>
-            <param name="array">Array is represented by elements from row in original jagged array</param>
-            <returns>Return min of elements</returns>
-        </member>
-        <member name="M:JaggedArrayMath.SumOfRowElements.CriterionMethod(System.Int32[])">
-            <summary>
-            This method finds sum of elements 
-            </summary>
-            <param name="array">Array is represented by elements from row in original jagged array</param>
-            <returns>Return sum of elements</returns>
+            <param name="array">Original array</param>
+            <param name="numberOfFirstRow">Index of first row</param>
+            <param name="numberOfSecondRow">Index of second row</param>
         </member>
     </members>
 </doc>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JaggedArrayMath.Tests
+namespace JaggedArrayMath
 {
     /// <summary>
     /// This class represents criterion for ascending sorting two-dimensional array by Max element of each row.

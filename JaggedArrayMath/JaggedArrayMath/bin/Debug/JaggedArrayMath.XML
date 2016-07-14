@@ -4,19 +4,53 @@
         <name>JaggedArrayMath</name>
     </assembly>
     <members>
-        <member name="T:JaggedArrayMath.JaggedArray">
+        <member name="T:JaggedArrayMath.JaggedArrayBasedOnComparer">
             <summary>
             This static class provides method which sorts jagged arrays by given criterion.
             </summary>
         </member>
-        <member name="M:JaggedArrayMath.JaggedArray.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnComparer.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
             <summary>
             This method sorts jagged arrays by given criterion. 
             </summary>
-            <param name="array">Array which have to be sorted</param>
-            <param name="comparator">Criterion for sorting</param>
+            <param name="array">Array which have to be sorted.</param>
+            <param name="comparator">Criterion for sorting.</param>
         </member>
-        <member name="M:JaggedArrayMath.JaggedArray.SwapRowsOfArray(System.Int32[][],System.Int32,System.Int32)">
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnComparer.Sort(System.Int32[][],System.Delegate)">
+            <summary>
+            This method sorts jagged arrays by given criterion method as second argument.
+            </summary>
+            <param name="array">Array which have to be sorted.</param>
+            <param name="comparisonMethod">Criterion for sorting.</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnComparer.SwapRowsOfArray(System.Int32[][],System.Int32,System.Int32)">
+            <summary>
+            This method replaces two rows into two-dimensional array.
+            </summary>
+            <param name="array">Original array</param>
+            <param name="numberOfFirstRow">Index of first row</param>
+            <param name="numberOfSecondRow">Index of second row</param>
+        </member>
+        <member name="T:JaggedArrayMath.JaggedArrayBasedOnDelegate">
+            <summary>
+            This static class provides method which sorts jagged arrays by given criterion.
+            </summary>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnDelegate.Sort(System.Int32[][],System.Func{System.Int32[],System.Int32[],System.Int32})">
+            <summary>
+            This method sorts jagged arrays by given criterion. 
+            </summary>
+            <param name="array">Array which have to be sorted.</param>
+            <param name="comparisonMethod">Criterion for sorting.</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnDelegate.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
+            <summary>
+            This method sorts jagged arrays by given criterion method as second argument.
+            </summary>
+            <param name="array">Array which have to be sorted.</param>
+            <param name="comparator">Criterion for sorting.</param>
+        </member>
+        <member name="M:JaggedArrayMath.JaggedArrayBasedOnDelegate.SwapRowsOfArray(System.Int32[],System.Int32[])">
             <summary>
             This method replaces two rows into two-dimensional array.
             </summary>

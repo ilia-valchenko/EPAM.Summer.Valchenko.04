@@ -26,7 +26,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {11, 22},               
             };
 
-            JaggedArray.Sort(jaggedArray, new CompareByAscendingSum());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new CompareByAscendingSum());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
@@ -50,7 +50,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {1}
             };
 
-            JaggedArray.Sort(jaggedArray, new CompareByDescendingSum());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new CompareByDescendingSum());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
@@ -78,7 +78,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {11, 22}
             };
 
-            JaggedArray.Sort(jaggedArray, new CompareByAscendingMaxElement());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new CompareByAscendingMaxElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
@@ -106,7 +106,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {}
             };
 
-            JaggedArray.Sort(jaggedArray, new ComparerByDescendingMaxElement());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new ComparerByDescendingMaxElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
@@ -132,7 +132,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {11,22}
             };
 
-            JaggedArray.Sort(jaggedArray, new CompareByAscendingMinElement());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new CompareByAscendingMinElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
@@ -158,7 +158,7 @@ namespace JaggedArrayMath.Tests
                 new int[] {0,2,4,6,10}
             };
 
-            JaggedArray.Sort(jaggedArray, new CompareByDescendingMinElement());
+            JaggedArrayBasedOnComparer.Sort(jaggedArray, new CompareByDescendingMinElement());
 
             Assert.IsTrue(IsEqualArrays(jaggedArray, expectedArray));
         }
